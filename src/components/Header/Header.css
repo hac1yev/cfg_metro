@@ -1,0 +1,73 @@
+.header-wrapper {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(17, 14, 14, 1);
+    position: fixed;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    animation: header_wrap 0.5s ease-in-out;
+    z-index: 10;
+}
+
+@keyframes header_wrap {
+    from {
+        top: -91px;
+        background-color: rgb(17, 14, 14, 0);
+    }to{
+        top: 0;
+        background-color: rgb(17, 14, 14, 1);
+    }
+}
+
+.home-header-wrapper {
+    height: 90px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.metro-logo {
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+
+.metro-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 0;
+    height: 90px;
+}
+
+.header-menu li {
+    height: 100%;
+}
+
+.header-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+}
