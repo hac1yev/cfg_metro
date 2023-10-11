@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
 import slider_img1 from '../../assets/Home/slider_img1.svg';
+import slider_img2 from '../../assets/Home/slider_img2.jpg';
+import slider_img3 from '../../assets/Home/slider_img3.jpg';
 import { GrFormNextLink } from 'react-icons/gr';
 import { GrFormPreviousLink } from 'react-icons/gr';
 
@@ -57,7 +59,7 @@ const MainSlider = () => {
                     </div>
                     <div className='slider-wrapper'>
                         <div className='slider-img'>
-                            <img src={slider_img1} alt="slider-main-image" />
+                            <img src={slider_img2} alt="slider-main-image" />
                         </div>
                         <div className='slider-content col-md-6'>
                             <h3>CFG ISTANBUL</h3>
@@ -78,7 +80,7 @@ const MainSlider = () => {
                     </div>
                     <div className='slider-wrapper'>
                         <div className='slider-img'>
-                            <img src={slider_img1} alt="slider-main-image" />
+                            <img src={slider_img3} alt="slider-main-image" />
                         </div>
                         <div className='slider-content col-md-6'>
                             <h3>CFG ISTANBUL</h3>

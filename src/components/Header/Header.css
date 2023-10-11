@@ -37,8 +37,8 @@
 
 .metro-logo {
     display: block;
-    width: 90px;
     height: 90px;
+    padding: 10px;
 }
 
 .metro-logo img {

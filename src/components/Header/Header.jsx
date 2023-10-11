@@ -33,7 +33,8 @@ const Header = () => {
         <div className={isHomepage ? 'home-header-wrapper' : 'header-wrapper'}>
             <div className='container header-container'>
                 <Link to="/" className='metro-logo'>
-                    <img src="https://png.pngtree.com/png-vector/20200921/ourmid/pngtree-red-and-black-logo-png-image_2348180.jpg" alt="logo" />
+                    <img src="https://www.hyhmetro.com.tr/img/logo.png" alt="logo" />
+                    
                 </Link>
                 <ul className='header-menu'>
                     <li className="menu-item">
